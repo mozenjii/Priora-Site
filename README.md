@@ -41,6 +41,5 @@ Open `site/priora-landing/index.html` directly in a browser, or serve the `site/
 
 ## Notes
 
-- The contact form is currently a frontend-only capture flow.
-- If you want real message delivery from the Vercel deployment, connect it to a backend endpoint or a Vercel-compatible form handler.
+- The contact form forwards requests to `epochesofficial@gmail.com`.
 - The site is intentionally minimal and professional so it works for investors, clinics, and industry reviewers.

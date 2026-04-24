@@ -39,7 +39,6 @@
       <main id="top">
         <section class="hero section" data-reveal>
           <div class="hero-copy">
-            <div class="eyebrow">Investor and client overview</div>
             <h1>Priora</h1>
             <p class="lede">
               AI prior authorization and denial appeal support for healthcare teams that need faster
@@ -311,22 +310,17 @@
         <section class="section cta" id="contact" data-reveal>
           <div class="cta-card">
             <div>
-              <div class="eyebrow">Request access</div>
               <h2>Start the conversation.</h2>
               <p>
                 Use this form for investor diligence, client questions, or partnership conversations.
                 Priora is available for a focused discussion and a deck walkthrough.
               </p>
             </div>
-            <form class="contact-form" name="priora-contact" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="bot-field">
-              <input type="hidden" name="form-name" value="priora-contact" />
-              <input type="hidden" name="submission_json" data-json-payload value="" />
-              <p class="sr-only">
-                <label>
-                  Do not fill this out if you're human:
-                  <input name="bot-field" />
-                </label>
-              </p>
+            <form class="contact-form" method="POST" action="https://formsubmit.co/epochesofficial@gmail.com">
+              <input type="hidden" name="_subject" value="New Priora request" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_next" value="https://prioraai.vercel.app/thanks/" />
+              <input type="hidden" name="_captcha" value="false" />
               <label>
                 <span>Name</span>
                 <input type="text" name="name" placeholder="Your name" required />
