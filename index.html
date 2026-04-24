@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Priora is an AI prior authorization and denial appeal copilot built for healthcare providers, investors, and industry experts."
+    />
+    <meta name="theme-color" content="#f7f4ee" />
+    <title>Priora | AI Prior Authorization Copilot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="bg-grid"></div>
+
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Priora home">
+          <span class="brand-mark"></span>
+          <span>Priora</span>
+        </a>
+        <nav class="topnav" aria-label="Primary">
+          <a href="#why">Why Priora</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#proof">Proof</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button button-ghost" href="#contact">Request the deck</a>
+      </header>
+
+      <main id="top">
+        <section class="hero section" data-reveal>
+          <div class="hero-copy">
+            <div class="eyebrow">Investor and client overview</div>
+            <h1>Priora</h1>
+            <p class="lede">
+              AI prior authorization and denial appeal support for healthcare teams that need faster
+              approvals, fewer preventable denials, and a clean evidence trail.
+            </p>
+            <p class="hero-note">
+              Prior authorization is the insurer approval step between a clinician's recommendation
+              and treatment. Priora turns that manual review into a guided workflow.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-solid" href="#contact">Request the deck</a>
+              <a class="button button-line" href="#proof">See the proof</a>
+            </div>
+            <div class="hero-metrics">
+              <div class="metric-chip">
+                <strong data-final="$5.3T">$5.3T</strong>
+                <span>U.S. healthcare spend in 2024</span>
+              </div>
+              <div class="metric-chip">
+                <strong data-final="52.8M">52.8M</strong>
+                <span>Prior-auth determinations in Medicare Advantage</span>
+              </div>
+              <div class="metric-chip">
+                <strong data-final="80.7%">80.7%</strong>
+                <span>Appealed denials overturned</span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="Priora overview panel">
+            <div class="case-board">
+              <div class="board-top">
+                <span>Live case review</span>
+                <strong>Authorization risk: medium</strong>
+              </div>
+              <div class="case-flow">
+                <div>
+                  <span>Clinical note</span>
+                  <strong>Diagnosis + treatment facts extracted</strong>
+                </div>
+                <div>
+                  <span>Payer policy</span>
+                  <strong>3 of 4 criteria matched</strong>
+                </div>
+                <div>
+                  <span>Next action</span>
+                  <strong>Request missing lab evidence</strong>
+                </div>
+              </div>
+              <div class="evidence-table" aria-label="Evidence checklist">
+                <div><span>Medical necessity</span><strong>Met</strong></div>
+                <div><span>Prior therapy</span><strong>Met</strong></div>
+                <div><span>Recent lab result</span><strong>Missing</strong></div>
+                <div><span>Appeal draft</span><strong>Ready</strong></div>
+              </div>
+            </div>
+            <div class="panel-card panel-card-secondary">
+              <div class="panel-label">Market signal</div>
+              <div class="signal-row">
+                <span>Denied</span>
+                <strong>4.1M</strong>
+              </div>
+              <div class="signal-row">
+                <span>Appealed</span>
+                <strong>11.5%</strong>
+              </div>
+              <div class="signal-row">
+                <span>Overturned</span>
+                <strong>80.7%</strong>
+              </div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section intro section-split" id="why" data-reveal>
+          <div>
+            <div class="eyebrow">Why Priora</div>
+            <h2>A narrow wedge beats a broad AI pitch.</h2>
+            <p>
+              The value is not generic automation. It is a focused workflow product that reduces denials,
+              shortens approvals, and helps revenue-cycle teams recover value that is already on the table.
+            </p>
+          </div>
+          <div class="card-stack">
+            <article class="info-card">
+              <h3>Painful workflow</h3>
+              <p>Prior auth is still a manual comparison of notes, payer rules, and denial letters.</p>
+            </article>
+            <article class="info-card">
+              <h3>Clear ROI</h3>
+              <p>Every avoided denial reduces staff time, treatment delay, and revenue leakage.</p>
+            </article>
+            <article class="info-card">
+              <h3>Real AI depth</h3>
+              <p>Priora needs extraction, retrieval, reasoning, risk scoring, and grounded drafting.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="workflow" data-reveal>
+          <div class="section-heading">
+            <div class="eyebrow">Workflow</div>
+            <h2>What the product actually does.</h2>
+          </div>
+          <div class="steps">
+            <article class="step-card">
+              <span class="step-index">01</span>
+              <h3>Ingest the case</h3>
+              <p>Staff upload clinical notes, labs, diagnosis codes, policy PDFs, denial letters, and treatment requests.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-index">02</span>
+              <h3>Extract and compare</h3>
+              <p>Priora extracts the key facts, matches them to payer criteria, and flags missing evidence early.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-index">03</span>
+              <h3>Draft the response</h3>
+              <p>The system outputs approval likelihood, a prior-auth summary, and a grounded appeal draft for review.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section proof" id="proof" data-reveal>
+          <div class="section-heading">
+            <div class="eyebrow">Proof</div>
+            <h2>The market signal is already strong.</h2>
+          </div>
+
+          <div class="proof-grid">
+            <article class="stat-card">
+              <span class="stat-number" data-final="$5.3T">$5.3T</span>
+              <p>U.S. healthcare spending in 2024</p>
+            </article>
+            <article class="stat-card">
+              <span class="stat-number" data-final="52.8M">52.8M</span>
+              <p>Prior-authorization determinations in Medicare Advantage</p>
+            </article>
+            <article class="stat-card">
+              <span class="stat-number" data-final="80.7%">80.7%</span>
+              <p>Appealed denials overturned</p>
+            </article>
+            <article class="signal-card">
+              <div class="signal-card-head">
+                <span>Workflow pressure</span>
+                <strong>CMS is pushing prior-auth modernization</strong>
+              </div>
+              <div class="progress-bars" aria-hidden="true">
+                <div class="progress-bar">
+                  <span style="width: 88%"></span>
+                </div>
+                <div class="progress-bar">
+                  <span style="width: 42%"></span>
+                </div>
+                <div class="progress-bar">
+                  <span style="width: 76%"></span>
+                </div>
+              </div>
+              <p>
+                The opportunity is credible because the administrative burden is huge, current, and tied
+                directly to provider revenue.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section roi-section" id="roi" data-reveal>
+          <div class="section-heading">
+            <div class="eyebrow">Revenue impact</div>
+            <h2>How Priora helps providers make more money.</h2>
+          </div>
+          <div class="roi-grid">
+            <article class="roi-card">
+              <div class="roi-top">
+                <span>01</span>
+                <strong>Fewer denials</strong>
+              </div>
+              <p>
+                Priora catches missing documentation before submission, which reduces rework and improves
+                first-pass approval rates.
+              </p>
+            </article>
+            <article class="roi-card">
+              <div class="roi-top">
+                <span>02</span>
+                <strong>Faster cash flow</strong>
+              </div>
+              <p>
+                When approvals arrive sooner, treatment starts sooner and reimbursement cycles move faster.
+              </p>
+            </article>
+            <article class="roi-card">
+              <div class="roi-top">
+                <span>03</span>
+                <strong>Less admin cost</strong>
+              </div>
+              <p>
+                Staff spend less time searching for evidence, rewriting packets, and responding to denials.
+              </p>
+            </article>
+          </div>
+          <div class="roi-banner">
+            <strong>Revenue loop</strong>
+            <span>Better evidence in, fewer denials out, more reimbursable care captured.</span>
+          </div>
+        </section>
+
+        <section class="section calculator-section" data-reveal>
+          <div class="section-heading">
+            <div class="eyebrow">Client value</div>
+            <h2>A simple revenue case clients can understand.</h2>
+          </div>
+          <div class="calculator">
+            <div class="calculator-copy">
+              <p>
+                Priora is easier to justify when buyers can connect it to blocked revenue. Even a modest
+                improvement in preventable denials can create a visible return for clinics and billing teams.
+              </p>
+              <div class="calc-assumptions">
+                <div>
+                  <span>Monthly prior-auth cases</span>
+                  <input type="number" min="10" step="10" value="300" data-calc-input="cases" />
+                </div>
+                <div>
+                  <span>Average reimbursable value</span>
+                  <input type="number" min="100" step="100" value="1200" data-calc-input="value" />
+                </div>
+                <div>
+                  <span>Preventable denial reduction</span>
+                  <input type="number" min="1" max="50" step="1" value="8" data-calc-input="reduction" />
+                </div>
+              </div>
+            </div>
+            <div class="calculator-result" aria-live="polite">
+              <span>Estimated monthly revenue protected</span>
+              <strong data-calc-output>$28,800</strong>
+              <p>Illustrative estimate for diligence and sales discussion, not a financial guarantee.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-split" id="business" data-reveal>
+          <div>
+            <div class="eyebrow">Business model</div>
+            <h2>Built for providers, billing teams, and revenue-cycle operations.</h2>
+            <p>
+              Priora can sell to clinics, specialty practices, hospital revenue-cycle teams, billing firms,
+              and prior-auth outsourcing providers. The commercial story is simple: fewer denials, less staff
+              time, faster approvals, and recovered revenue.
+            </p>
+          </div>
+
+          <div class="card-stack compact">
+            <article class="info-card">
+              <h3>Pricing</h3>
+              <p>Base SaaS fee plus usage pricing, with premium appeal automation as the expansion path.</p>
+            </article>
+            <article class="info-card">
+              <h3>Positioning</h3>
+              <p>Sell the outcome, not the technology: faster approvals and fewer denials.</p>
+            </article>
+            <article class="info-card">
+              <h3>Why it wins</h3>
+              <p>It is a focused, explainable workflow product with a believable path to adoption.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section cta" id="contact" data-reveal>
+          <div class="cta-card">
+            <div>
+              <div class="eyebrow">Request access</div>
+              <h2>Start the conversation.</h2>
+              <p>
+                Use this form for investor diligence, client questions, or partnership conversations.
+                Priora is available for a focused discussion and a deck walkthrough.
+              </p>
+            </div>
+            <form class="contact-form" name="priora-contact" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="priora-contact" />
+              <input type="hidden" name="submission_json" data-json-payload value="" />
+              <p class="sr-only">
+                <label>
+                  Do not fill this out if you're human:
+                  <input name="bot-field" />
+                </label>
+              </p>
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="you@firm.com" required />
+              </label>
+              <label>
+                <span>Organization</span>
+                <input type="text" name="organization" placeholder="Investor, clinic, or company" />
+              </label>
+              <label>
+                <span>What are you looking for?</span>
+                <textarea name="message" rows="4" placeholder="Deck, partnership, diligence, or client discussion"></textarea>
+              </label>
+              <button class="button button-solid button-full" type="submit">Request the deck</button>
+            </form>
+          </div>
+        </section>
+
+        <footer class="footer" data-reveal>
+          <div>
+            <div class="eyebrow">Priora</div>
+            <p>Built for investor review, client diligence, and healthcare workflow evaluation.</p>
+          </div>
+          <p class="footer-note">
+            Human-in-the-loop by design. Priora supports decisions; it does not replace clinicians or
+            payer review.
+          </p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
